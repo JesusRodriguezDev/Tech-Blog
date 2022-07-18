@@ -1,5 +1,25 @@
 body {
-  background-color: gainsboro;
+  background-color: rgb(51, 107, 191);
+}
+
+.navbar {
+  background-color: rgb(120, 204, 240);
+}
+
+.container {
+  margin-top: 10px;
+  /* background-color: rgb(68, 50, 198); */
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: rgb(39, 39, 90);
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+#logout {
+  color: antiquewhite;
 }
 
 .navTitle {
@@ -7,9 +27,19 @@ body {
   font-size: xx-large;
 }
 
+.navbar-toggler {
+  border-radius: 20px;
+}
+
+button {
+  background-color: rgb(42, 33, 110);
+  border-radius: 20px;
+}
+
 .blogBox {
   margin-top: 8px;
   border-style: solid;
+  background-color: rgb(68, 50, 198);
 }
 
 .blogTitle {
@@ -17,17 +47,24 @@ body {
   color: gainsboro;
 }
 
+.blog-list {
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(33, 81, 147);
+}
+
 .blogDesc {
   border-style: solid;
   border-color: gainsboro;
+  border-radius: 20px;
   margin-bottom: 5px;
   padding: 2px;
-  background-color: rgb(77, 94, 125);
+  background-color: rgb(33, 81, 147);
 }
 
 .blogDescMain {
   font-weight: 700;
-  color: gainsboro;
+  color: rgb(9, 9, 9);
 }
 
 .blogDescTwo {
@@ -40,13 +77,13 @@ body {
   font-style: italic;
   font-size: 12px;
   padding: 5px;
-  color: gainsboro;
+  color: rgb(0, 0, 0);
 }
 
 .blogBoxCont {
   margin-top: 10px;
   border-style: solid;
-  background-color: gainsboro;
+  background-color: rgb(217, 200, 200);
 }
 
 .formCont {
@@ -54,6 +91,14 @@ body {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.form-input {
+  border-radius: 10px;
+}
+
+.form-item {
+  border-radius: 20px;
 }
 
 .commentCont {
@@ -83,15 +128,16 @@ body {
 }
 
 .headerRow {
-  background-color: rgb(96, 107, 128);
+  /* background-color: rgb(51, 75, 120); */
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 a:link {
-  color: gainsboro;
+  color: rgb(217, 200, 200);
 }
 a:visited {
-  color: gainsboro;
+  color: rgb(217, 200, 200);
 }
 
 .login {
@@ -104,4 +150,5 @@ a:visited {
 
 .form-group {
   margin-top: 10px;
+  border-radius: 20px;
 }
