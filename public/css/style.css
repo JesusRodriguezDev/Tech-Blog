@@ -8,7 +8,6 @@ body {
 
 .container {
   margin-top: 10px;
-  /* background-color: rgb(68, 50, 198); */
   border-radius: 20px;
 }
 
@@ -44,7 +43,7 @@ button {
 
 .blogTitle {
   text-decoration: none;
-  color: gainsboro;
+  color: antiquewhite;
 }
 
 .blog-list {
@@ -55,7 +54,7 @@ button {
 
 .blogDesc {
   border-style: solid;
-  border-color: gainsboro;
+  border-color: antiquewhite;
   border-radius: 20px;
   margin-bottom: 5px;
   padding: 2px;
@@ -93,6 +92,11 @@ button {
   margin-right: auto;
 }
 
+.form-group {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
 .form-input {
   border-radius: 10px;
 }
@@ -101,6 +105,13 @@ button {
   border-radius: 20px;
 }
 
+.login {
+  margin-left: 25px;
+}
+
+.signup {
+  margin-left: 25px;
+}
 .commentCont {
   margin-left: auto;
   margin-right: auto;
@@ -128,7 +139,6 @@ button {
 }
 
 .headerRow {
-  /* background-color: rgb(51, 75, 120); */
   margin-bottom: 10px;
   border-radius: 20px;
 }
@@ -138,17 +148,4 @@ a:link {
 }
 a:visited {
   color: rgb(217, 200, 200);
-}
-
-.login {
-  margin-left: 25px;
-}
-
-.signup {
-  margin-left: 25px;
-}
-
-.form-group {
-  margin-top: 10px;
-  border-radius: 20px;
 }
